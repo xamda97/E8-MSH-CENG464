@@ -38,3 +38,14 @@ This component satisfies the following Low-Level Requirements (LLRs):
 void addDevice(Device* device);
 Device* findDevice(std::string name);
 void removeDevice(Device* device);
+```
+
+### Project Structure
+E8-MSH-CENG464/
+├── Device.h
+├── DeviceManager.h
+├── DeviceManager.cpp
+├── main.cpp
+└── README.md
+
+This component was implemented and tested individually before integration.
